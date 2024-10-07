@@ -1,38 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .App {
+  text-align: start;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.question-container {
+  margin: 50px auto;
+  max-width: 400px;
+  height: 600px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+h2 {
+  margin-left: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.options button {
+  font-size: 18px;
+  margin: 10px 10px 0 10px;
+  padding: 20px 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  font-size: 18px;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.options button:hover {
+  background-color: #597cff;
+  color: #ffffff;
+  transition: ease-in-out 0.3s;
+}
+
+.back-button {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #597cff;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-form h2 {
+  text-align: start;
+  margin-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contact-form h4 {
+  text-align: start;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.contact-form p {
+  text-align: start;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.contact-form label {
+  text-align: start;
+}
+
+.button-div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-form button {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-form input {
+  width: 300px;
+  padding: 12px 12px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.powered-by-birrasolutions {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: #b7b7b7;
+  cursor: pointer;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
 }
