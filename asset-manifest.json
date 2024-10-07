@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/birrasolutions-kysely-proto/static/css/main.8a704973.css",
+    "main.js": "/birrasolutions-kysely-proto/static/js/main.498a1688.js",
+    "static/js/453.0c108a54.chunk.js": "/birrasolutions-kysely-proto/static/js/453.0c108a54.chunk.js",
+    "index.html": "/birrasolutions-kysely-proto/index.html",
+    "main.8a704973.css.map": "/birrasolutions-kysely-proto/static/css/main.8a704973.css.map",
+    "main.498a1688.js.map": "/birrasolutions-kysely-proto/static/js/main.498a1688.js.map",
+    "453.0c108a54.chunk.js.map": "/birrasolutions-kysely-proto/static/js/453.0c108a54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a704973.css",
+    "static/js/main.498a1688.js"
+  ]
+}
